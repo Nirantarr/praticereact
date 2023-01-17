@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/praticereact/static/css/main.31d6cfe0.css",
+    "main.js": "/praticereact/static/js/main.281f3a8c.js",
+    "static/js/787.48f087f1.chunk.js": "/praticereact/static/js/787.48f087f1.chunk.js",
+    "index.html": "/praticereact/index.html",
+    "main.281f3a8c.js.map": "/praticereact/static/js/main.281f3a8c.js.map",
+    "787.48f087f1.chunk.js.map": "/praticereact/static/js/787.48f087f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.281f3a8c.js"
+  ]
+}
