@@ -1,31 +1,23 @@
 import React, { useState } from 'react'
 
-
 export default function Aboutus() {
-
   const [mystyle, SetMyStyle] = useState({
     color: 'black',
-    backgroundColor: 'white'
+    // backgroundColor: 'white'
   })
-
-  const [BtnText, SetBtnText] = useState("Enable dark mode")
   const ChangeTheme = () => {
     if (mystyle.color === 'black') {
       SetMyStyle({
         color: 'white',
-        backgroundColor: 'black'
+        // backgroundColor: 'black'
       })
-      SetBtnText("Enable light mode")
     } else {
       SetMyStyle({
         color: 'black',
-        backgroundColor: 'white'
+        // backgroundColor: 'white'
       })
-      SetBtnText("Enable dark mode")
     }
   }
-
-
   return (
     <>
       <div className="aboutus" style={mystyle} >
@@ -66,12 +58,9 @@ export default function Aboutus() {
               </div>
             </div>
           </div>
-          <button type="button" onClick={ChangeTheme} className="btn btn-primary">{BtnText}</button>
         </div>
       </div>
     </>
   )
-
 }
-
 
